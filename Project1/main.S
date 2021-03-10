@@ -77,9 +77,9 @@ second:
     ldr r0, addr_print_msg
     ldr r1, addr_output
     bl printf
+    mov r0, r6
 
 final:
-    mov r0, r6
     ldr r1, addr_return
     ldr lr, [r1]
     bx lr

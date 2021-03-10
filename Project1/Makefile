@@ -10,7 +10,3 @@ concat.out: main.S
 clean:
 	rm -f concat.out
 
-run: 
-	@./concat.out
-
-
